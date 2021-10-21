@@ -1,24 +1,17 @@
-# maxidoctor
+# Maxdoctor
 
-## Project setup
+## Instalar dependencias do projeto:
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Para executar o projeto em modo de desenvolvimento:
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compilar para produção:
 ```
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

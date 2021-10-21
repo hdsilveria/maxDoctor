@@ -1,8 +1,16 @@
 import Vue from 'vue'
 import App from './App.vue'
+import router from './router'
+
+import './libs/bootstrap-vue'
+import './libs/axios'
+import './libs/vee-validate'
+import './assets/css/style.css'
+import './assets/css/input.css'
 
 Vue.config.productionTip = false
 
 new Vue({
+  router,
   render: h => h(App),
 }).$mount('#app')

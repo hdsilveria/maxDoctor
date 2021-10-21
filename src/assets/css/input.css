@@ -1,0 +1,58 @@
+.form-control {
+  border: none !important;
+  border-bottom: 1px solid rgb(122, 73, 168) !important;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 0px;
+  padding-left: 55px;
+  position: relative;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+  background: rgba(255, 255, 255, 0);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+.d-block {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  color: rgb(112, 112, 112);
+  font-weight: 600;
+}
+
+.custom-select {
+  border: none !important;
+  border-bottom: 1px solid rgb(122, 73, 168) !important;
+  background: rgba(255, 255, 255, 0) !important;
+  border-radius: 0px;
+  padding-left: 55px;
+}
+
+
+.custom-select:focus {
+  box-shadow: none !important;
+  background: rgba(255, 255, 255, 0);
+}
+
+.custom-select.is-valid {
+  border: none !important;
+  border-bottom: 2px solid green !important;
+  background: none !important;
+  color: rgb(1, 192, 1);
+}
+
+.form-control.is-valid {
+  border: none !important;
+  border-bottom: 2px solid green !important;
+  background: none !important;
+  color: rgb(1, 192, 1);
+}

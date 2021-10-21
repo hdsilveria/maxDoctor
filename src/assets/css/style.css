@@ -1,0 +1,35 @@
+body {
+  background: rgb(167,131,201);
+  height: 100vh !important;
+}
+
+h3 {
+  color: rgb(167, 131, 201);
+}
+
+.btn.btn-primary {
+  background: rgb(167, 131, 201) !important;
+  border-radius: 6px;
+  border: none;
+}
+
+.btn:focus {
+  box-shadow: none !important;
+}
+
+.content-area {
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.192);
+}
+
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+p {
+  font-size: 11pt;
+  text-transform: uppercase;
+  color: rgb(122, 73, 168);
+  font-weight: 500;
+}
